@@ -1,0 +1,32 @@
+/***************************** custom Css ***************************/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .disable {
+    opacity: 65%;
+    cursor: not-allowed !important;
+    
+  }
+  
+  .btnSelect {
+    border: 2px solid yellow;
+  }
+  
+  .btnDeselect {
+    outline: none;  
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  /* ***************************************************************** */
